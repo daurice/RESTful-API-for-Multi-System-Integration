@@ -1,4 +1,4 @@
-Flask==2.3.5
-flasgger==1.2.5
-pytest==7.4.0
-requests==2.31.0
+Flask
+flasgger
+pytest
+requests
