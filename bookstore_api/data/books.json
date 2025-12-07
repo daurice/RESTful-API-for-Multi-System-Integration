@@ -1,0 +1,5 @@
+{
+    "123": {"id": "123", "title": "The Great Gatsby", "author": "F. Scott Fitzgerald", "price": 15.99, "stock": 50, "isbn": "9780743273565"},
+    "456": {"id": "456", "title": "1984", "author": "George Orwell", "price": 12.99, "stock": 30, "isbn": "9780451524935"},
+    "789": {"id": "789", "title": "To Kill a Mockingbird", "author": "Harper Lee", "price": 14.99, "stock": 25, "isbn": "9780061120084"}
+}

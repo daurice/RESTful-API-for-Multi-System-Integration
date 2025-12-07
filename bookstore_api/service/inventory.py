@@ -9,6 +9,9 @@ def save_books(books):
     with open(DATA_PATH + "books.json", "w") as f:
         json.dump(books, f, indent=4)
 
+def get_all_books():
+    return load_books()
+
 def get_book(book_id):
     books = load_books()
     return books.get(book_id)

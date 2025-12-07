@@ -36,3 +36,7 @@ def create_order(order_data):
 
     save_orders(orders)
     return orders[order_id], None
+
+def get_order(order_id):
+    orders = load_orders()
+    return orders.get(order_id)

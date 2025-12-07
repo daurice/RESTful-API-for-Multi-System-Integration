@@ -23,3 +23,7 @@ def create_delivery(delivery_data):
 
     save_deliveries(deliveries)
     return deliveries[delivery_id]
+
+def get_delivery(delivery_id):
+    deliveries = load_deliveries()
+    return deliveries.get(delivery_id)
