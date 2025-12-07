@@ -1,6 +1,6 @@
 # Quick Reference Card - Bookstore Management API
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Setup (first time only)
@@ -17,7 +17,7 @@ python app.py
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Inventory System
 
@@ -42,13 +42,13 @@ python app.py
 
 ---
 
-## 🔐 Authentication
+## Authentication
 
 **Header**: `Authorization: Bearer my_secure_token`
 
 ---
 
-## 📝 Sample Requests
+## Sample Requests
 
 ### List Books
 ```bash
@@ -88,7 +88,7 @@ curl -X POST "http://localhost:5000/api/deliveries" \
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -103,7 +103,7 @@ pytest -v
 
 ---
 
-## 📊 HTTP Status Codes
+## HTTP Status Codes
 
 | Code | Meaning |
 |------|---------|
@@ -115,7 +115,7 @@ pytest -v
 
 ---
 
-## 📚 Sample Data
+## Sample Data
 
 ### Books
 - **123**: The Great Gatsby ($15.99, 50 in stock)
@@ -124,7 +124,7 @@ pytest -v
 
 ---
 
-## 🔄 Complete Workflow
+## Complete Workflow
 
 ```
 1. GET /api/books/123          → Check availability
@@ -135,7 +135,7 @@ pytest -v
 
 ---
 
-## 📖 Documentation Files
+## Documentation Files
 
 | File | Purpose |
 |------|---------|
@@ -148,7 +148,7 @@ pytest -v
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```
 bookstore_api/
@@ -170,7 +170,7 @@ bookstore_api/
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 | Issue | Solution |
 |-------|----------|
@@ -181,7 +181,7 @@ bookstore_api/
 
 ---
 
-## 💡 Tips
+## Tips
 
 - Use Swagger UI for interactive testing: `/api/docs`
 - Import `POSTMAN_COLLECTION.json` for Postman
@@ -190,7 +190,7 @@ bookstore_api/
 
 ---
 
-## 📞 Quick Links
+## Quick Links
 
 - **Swagger UI**: http://localhost:5000/api/docs
 - **GitHub Actions**: `.github/workflows/python-app.yml`
